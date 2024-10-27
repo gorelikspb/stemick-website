@@ -1,0 +1,124 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+    background-image: url('background.png');
+    background-position: top right; /* Размещение в правом верхнем углу */
+
+
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+
+.logo {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.hero-content {
+    width: 100%; /* Задает ширину для текста, чтобы оставить место для фото */
+    padding-right: 20px;
+}
+
+.hero-content h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: #555;
+}
+
+.cta-button {
+    background-color: #007acc;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #005f99;
+}
+
+/* Hexagon for Owner's Photo */
+
+
+/* About Section */
+
+#about {
+    /* padding: 40px 20px; */
+    text-align: left;
+    /* background-color: #ffffff; */
+    background-color: rgba(244, 248, 251, 0.5);    /* margin-top: 20px; */
+    border: 1px solid #293850;
+    border-radius: 15px;
+    align-items: center;     
+    padding: 10px;     /* Отступы сверху и снизу */
+    margin: 10px;
+    /* Центрирует содержимое по вертикали */
+
+}
+
+.about-content {
+    text-align: left;
+}
+
+.hexagon {
+    width: 150px;
+    /* height: 100px; */
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    overflow: hidden;
+    float: left; /* Плавающее изображение */
+    margin-right: 20px;
+    margin-bottom: 10px;}
+
+.hexagon-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    padding-top: 0px;
+    /* background-color: #f0f4f8; */
+    
+    text-align: center;
+}
+
+.service {
+    margin: 20px;
+    margin-top:0px;
+    /* padding: 20px; */
+    border: 1px solid #293850;
+    border-radius: 15px;
+    background-color: rgba(244, 248, 251, 0.5);    /* margin-top: 20px; */
+
+    /* background-color: #ffffff; */
+}
